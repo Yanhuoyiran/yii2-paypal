@@ -1,36 +1,21 @@
 {
-  "name": "Yanhuoyiran/yii2-paypal",
-  "description": "paypal extension for yii2",
-  "type": "yii2-extension",
-  "keywords": ["yii", "paypal"],
-  "license": "BSD-3-Clause",
-  "authors": [
-    {
-      "name": "Jeonjihyun",
-      "email": "jeonjihyun@live.com"
+    "name": "yanhuoyiran/yii2-paypal",
+    "description": "The Paypal extension for yii2",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","paypal"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Jeonjihyun",
+            "email": "jeonjihyun@live.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "yanhuoyiran\\paypal\\": ""
+        }
     }
-  ],
-  "require": {
-    "php": ">=5.5.0",
-    "yiisoft/yii2": "~2.0.13"
-  },
-  "require-dev": {
-    "paypal/PayPal-PHP-SDK": "*"
-  },
-  "autoload": {
-    "psr-4": {
-      "yii\\paypal\\": "src"
-    }
-  },
-  "extra": {
-    "branch-alias": {
-      "dev-master": "2.0.x-dev"
-    }
-  },
-  "repositories": [
-    {
-      "type": "composer",
-      "url": "https://asset-packagist.org"
-    }
-  ]
 }
